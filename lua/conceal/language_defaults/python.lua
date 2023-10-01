@@ -36,7 +36,7 @@ return {
     },
     ["elif"] = {
         enabled = true,
-        conceal = "e",
+        conceal = "ef",
         highlight = "conditional"
     },
     ["pass"] = {
@@ -93,12 +93,12 @@ return {
     },
     ["and"] = {
         enabled = true,
-        conceal = "&",
+        conceal = "∧",
         highlight = "keyword.operator"
     },
     ["or"] = {
         enabled = true,
-        conceal = "|",
+        conceal = "∨",
         highlight = "keyword.operator"
     },
     ["not"] = {
@@ -121,4 +121,9 @@ return {
         conceal = "p",
         highlight = "function.builtin"
     },
+    ["in"] = {
+        enabled = true,
+        conceal = "∈",
+        highlight = "keyword.operator"
+    }
 }
