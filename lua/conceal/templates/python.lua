@@ -36,6 +36,7 @@ for _, keyword in ipairs({
     "and",
     "or",
     "not",
+    "in",
 }) do
     keywords[keyword] = utils.query_builder(keyword)
 end
