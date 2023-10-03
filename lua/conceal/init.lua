@@ -62,7 +62,7 @@ M.toggle_conceal = function(level)
     if state ~= 0 then
         vim.o.conceallevel = 0
     else
-        vim.o.conceallevel = level or _default
+        vim.o.conceallevel = level or 2 
     end
 end
 
